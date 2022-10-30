@@ -1,21 +1,14 @@
-'''
-! useful links for the project !
-
-https://www.browserstack.com/guide/alerts-and-popups-in-selenium
-
-'''
-
 import pyautogui
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 import time
 
-driver = webdriver.Chrome(r'C:\Users\G_56\Downloads\chromedriver_win32\chromedriver.exe')
+driver = webdriver.Chrome(r'chromedriver')
 
 def login():
-    email = 'sar.haribo@hotmail.com'
-    password = 'Stewart01'
+    email = ''
+    password = ''
 
     driver.get('https://www.galabingo.com') #open site
     time.sleep(5)
